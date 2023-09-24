@@ -16,7 +16,12 @@ module.exports = {
                     900: '#870415'
                 }
             },
+            transitionProperty: {
+                'height': 'height'
+            }
         },
+       
     },
+    
     plugins: [],
 }
