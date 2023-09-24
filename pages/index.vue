@@ -63,26 +63,48 @@
                 </div>
             </div>
         </article>
-        <article class="h-auto py-10 bg-gradient-to-br from-slate-900 to-red-900 text-white">
+        <article class="h-auto py-10 bg-gradient-to-b from-slate-100 to-slate-900/10 text-slate-800">
             <div class="flex items-center justify-center pl-20 flex-col ">
                 <h1 class="text-4xl font-bold text-center">
-                    Gallery
+                    Some of our work
                 </h1>
 
                 <div class="container mx-auto py-8">
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-1">
 
-                        <GalleryImage
+                        <GalleryImage class="col-span-2"
                             thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/44290-Aviation%20Government%20and%20Defense%20Landing%20Page/44290-hero-desktop.jpg"
-                            title="Video Title 1" description="Description of Video 1." />
-
-                        <GalleryImage
-                            thumbnail-src="https://static.garmincdn.com/gdc/market-pages/banners/in-the-air/2021/business-aviation/1600x455/business-Garmin-Autoland-1600x455.jpg"
-                            title="Video Title 2" description="Description of Video 2." />
+                            title="Lorem ipsum dolor sit." />
 
                         <GalleryImage
                             thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/34390-G5000-upgrade-phase-2/34390-hero-desktop.jpg"
-                            title="Video Title 3" description="Description of Video 3." />
+                            title="Lorem ipsum dolor sit amet." />
+
+                        <GalleryImage class="row-span-2"
+                            thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/44290-Aviation%20Government%20and%20Defense%20Landing%20Page/44290-hero-desktop.jpg"
+                            title="Lorem, ipsum dolor." />
+
+                        <GalleryImage class="row-span-2"
+                            thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/34390-G5000-upgrade-phase-2/34390-hero-desktop.jpg"
+                            title="Lorem, ipsum dolor." />
+
+
+                        <GalleryImage
+                            thumbnail-src="https://static.garmincdn.com/gdc/market-pages/banners/in-the-air/2021/business-aviation/1600x455/business-Garmin-Autoland-1600x455.jpg"
+                            title="Lorem ipsum dolor sit." />
+
+                        <GalleryImage
+                            thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/34390-G5000-upgrade-phase-2/34390-hero-desktop.jpg"
+                            title="Lorem ipsum dolor sit amet." />
+                        <GalleryImage class="col-span-2"
+                            thumbnail-src="https://static.garmincdn.com/gdc/market-pages/banners/in-the-air/2021/business-aviation/1600x455/business-Garmin-Autoland-1600x455.jpg"
+                            title="Lorem, ipsum dolor." />
+
+
+                        <GalleryImage
+                            thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/44290-Aviation%20Government%20and%20Defense%20Landing%20Page/44290-hero-desktop.jpg"
+                            title="Lorem ipsum dolor sit." />
+
                     </div>
                 </div>
             </div>
