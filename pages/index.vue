@@ -5,12 +5,13 @@
             <div class="bg-gradient-to-tr from-neutral-950 to-transparent absolute inset-0 flex items-center pl-20">
                 <div class="hero-container flex flex-col items-start gap-5 mb-10">
                     <h1 class="text-4xl font-bold">
-                        VR Avionics - <br>
+                        VR Canada Avionics - <br>
                         Your plane was <span
                             class="bg-clip-text text-transparent bg-gradient-to-l from-maple-red-500 via-rose-600 to-maple-red-800">meant
                             to fly.</span>
                     </h1>
-                    <p class="font-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolorum consectetur aliquam reiciendis
+                    <p class="font-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolorum consectetur
+                        aliquam reiciendis
                         libero. Velit, cupiditate.</p>
                     <div class="button-container flex justify-end w-full gap-4">
                         <PrimaryButton>REACH OUT</PrimaryButton>
