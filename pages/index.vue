@@ -22,15 +22,21 @@
 
             </div>
         </section>
-        <article class="h-auto py-10 bg-white">
+        <article class="h-auto py-10 bg-white text-slate-700">
             <div class="flex items-center justify-center pl-20 flex-col">
                 <h1 class="text-4xl font-bold text-center mt-8">
-                    Lorem, ipsum.
+                    Who are we
                 </h1>
                 <p class="py-5 max-w-md text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
                     perspiciatis sapiente quae eum veniam libero amet, placeat quam aperiam quasi dolorem eaque, deleniti
                     corrupti est voluptates sequi corporis illum nemo.</p>
-                    <p>lorem</p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    class="w-6 h-6 animate-bounce">
+                    <path fillRule="evenodd"
+                        d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                        clipRule="evenodd" />
+                </svg>
+
             </div>
         </article>
         <article class="h-auto py-10 bg-gradient-to-tr from-slate-900 to-slate-700 text-white">
