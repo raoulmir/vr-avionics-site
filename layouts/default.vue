@@ -7,7 +7,7 @@
                 <div class="flex items-center gap-3
                  bg-slate-100 border-b-4 border-r border-r-slate-400/75 border-slate-900/75 rounded-tr-full
                 pr-10 px-5 md:px-20">
-                    <img src="img/logo.svg" alt="Website Logo" class="h-16 w-16">
+                    <img src="/img/logo.svg" alt="Website Logo" class="h-16 w-16">
                     <div class="text flex-col text-maple-red-700 text-md hidden md:flex">
                         <span class="font-semibold -mb-2">VR Canada</span>
                         <span>Avionics</span>
