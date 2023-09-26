@@ -17,7 +17,7 @@
 
                 <!-- Navigation Links (Right) -->
                 <div class="space-x-4 flex">
-                    <a href="#" class="text-white hover:text-gray-300 ml-5 flex gap-1">
+                    <a href="mailto:maurits@vravionics.com" class="text-white hover:text-gray-300 ml-5 flex gap-1 tracking-wider">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                             class="w-6 h-5 mt-1">
                             <path
@@ -29,7 +29,7 @@
 
                         Contact
                     </a>
-                    <a href="#" class="text-white hover:text-gray-300 flex gap-1">
+                    <a href="https://www.youtube.com/@zubtf/videos" class="text-white hover:text-gray-300 flex gap-1 tracking-wider">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                             class="w-6 h-5 mt-1">
                             <path
