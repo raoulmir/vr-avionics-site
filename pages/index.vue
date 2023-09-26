@@ -4,7 +4,7 @@
             <!-- Overlaying Header Text -->
             <div class="bg-gradient-to-tr from-neutral-950 to-transparent absolute inset-0 flex items-center pl-20">
                 <div class="hero-container flex flex-col items-start gap-5 mb-10">
-                    <h1 class="text-4xl font-bold">
+                    <h1 class="font-display text-4xl font-bold tracking-wider">
                         VR Canada Avionics - <br>
                         Your plane was <span
                             class="bg-clip-text text-transparent bg-gradient-to-l from-maple-red-500 via-rose-600 to-maple-red-800">meant
@@ -23,8 +23,8 @@
             </div>
         </section>
         <article class="h-auto py-10 bg-white text-slate-700">
-            <div class="flex items-center justify-center pl-20 flex-col">
-                <h1 class="text-4xl font-bold text-center mt-8">
+            <div class="flex items-center justify-center flex-col">
+                <h1 class="text-4xl font-bold text-center mt-8 font-display">
                     Who are we
                 </h1>
                 <p class="py-5 max-w-md text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
@@ -40,8 +40,8 @@
             </div>
         </article>
         <article class="h-auto py-10 bg-gradient-to-tr from-slate-900 to-slate-700 text-white">
-            <div class="flex items-center justify-center pl-20 flex-col ">
-                <h1 class="text-4xl font-bold text-center">
+            <div class="flex items-center justify-center flex-col ">
+                <h1 class="text-4xl font-bold text-center font-display tracking-wider">
                     Videos
                 </h1>
 
@@ -64,8 +64,8 @@
             </div>
         </article>
         <article class="h-auto py-10 bg-gradient-to-b from-slate-100 to-slate-900/10 text-slate-800">
-            <div class="flex items-center justify-center pl-20 flex-col ">
-                <h1 class="text-4xl font-bold text-center">
+            <div class="flex items-center justify-center flex-col ">
+                <h1 class="text-4xl font-bold text-center font-display tracking-wider">
                     Some of our work
                 </h1>
 
@@ -112,9 +112,7 @@
     </div>
 </template>
 <script>
-// import { PrimaryButton } from '#build/components';
 
-// This will work in both `<script setup>` and `<script>`
 definePageMeta({
     layout: "default",
 });

@@ -9,7 +9,7 @@
                 pr-10 px-5 md:px-20">
                     <img src="/img/logo.svg" alt="Website Logo" class="h-16 w-16">
                     <div class="text flex-col text-maple-red-700 text-md hidden md:flex">
-                        <span class="font-semibold -mb-2">VR Canada</span>
+                        <span class="font-semibold -mb-2 font-display">VR Canada</span>
                         <span>Avionics</span>
                     </div>
 
