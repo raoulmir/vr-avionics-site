@@ -2,7 +2,7 @@
     <div class="h-screen divide-y divide-slate-200">
         <section class="hero-banner h-1/2 text-white relative ">
             <!-- Overlaying Header Text -->
-            <div class="bg-gradient-to-tr from-neutral-950 to-transparent absolute inset-0 flex items-center pl-20">
+            <div class="bg-gradient-to-tr from-neutral-950 via-transparent to-neutral-950 to-90% absolute inset-0 flex items-center pl-20">
                 <div class="hero-container flex flex-col items-start gap-5 mb-10">
                     <h1 class="font-display text-4xl font-bold tracking-wider">
                         VR Canada Avionics - <br>
@@ -10,7 +10,7 @@
                             class="bg-clip-text text-transparent bg-gradient-to-l from-maple-red-500 via-rose-600 to-maple-red-800">meant
                             to fly.</span>
                     </h1>
-                    <p class="font-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolorum consectetur
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolorum consectetur
                         aliquam reiciendis
                         libero. Velit, cupiditate.</p>
                     <div class="button-container flex justify-end w-full gap-4">
@@ -120,7 +120,7 @@ definePageMeta({
 <style>
 /* Additional CSS for the hero banner */
 .hero-banner {
-    background-image: url('https://static.garmincdn.com/gdc/home-page/banners/Homepage-and-Subcat-banner-DESKTOP-33562-33563-33570-33572-33573.jpg');
+    background-image: url('/img/hero-banner.JPG');
     background-size: cover;
     background-position: center center;
 }
