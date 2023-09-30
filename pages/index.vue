@@ -1,10 +1,10 @@
 <template>
     <div class="h-screen divide-y divide-slate-200">
-        <section class="hero-banner h-1/2 text-white relative ">
+        <section class="hero-banner h-1/2 text-white relative selection:bg-maple-red-100">
             <!-- Overlaying Header Text -->
-            <div class="bg-gradient-to-tr from-neutral-950 via-transparent to-neutral-950 to-90% absolute inset-0 flex items-center pl-20">
+            <div class="bg-gradient-to-tr from-neutral-950 via-transparent to-neutral-950 to-90% absolute inset-0 flex items-center pl-20 ">
                 <div class="hero-container flex flex-col items-start gap-5 mb-10">
-                    <h1 class="font-display text-4xl font-bold tracking-wider">
+                    <h1 class="font-display text-4xl font-bold tracking-wider subpixel-antialiased">
                         VR Canada Avionics - <br>
                         Your plane was <span
                             class="bg-clip-text text-transparent bg-gradient-to-l from-maple-red-500 via-rose-600 to-maple-red-800">meant
@@ -22,9 +22,9 @@
 
             </div>
         </section>
-        <article class="h-auto py-10 bg-white text-slate-700">
+        <article class="h-auto py-10 bg-white text-slate-700 selection:bg-maple-red-100">
             <div class="flex items-center justify-center flex-col">
-                <h1 class="text-4xl font-bold text-center mt-8 font-display">
+                <h1 class="text-4xl font-bold text-center mt-8 font-display subpixel-antialiased">
                     Who are we
                 </h1>
                 <p class="py-5 max-w-md text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
@@ -41,7 +41,7 @@
         </article>
         <article class="h-auto py-10 bg-gradient-to-tr from-slate-900 to-slate-700 text-white">
             <div class="flex items-center justify-center flex-col ">
-                <h1 class="text-4xl font-bold text-center font-display tracking-wider">
+                <h1 class="text-4xl font-bold text-center font-display tracking-wider selection:bg-maple-red-100 subpixel-antialiased">
                     Videos
                 </h1>
 
@@ -49,23 +49,32 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                         <VideoCard
-                            thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/44290-Aviation%20Government%20and%20Defense%20Landing%20Page/44290-hero-desktop.jpg"
-                            title="Video Title 1" description="Description of Video 1." />
+                            thumbnail-src="https://i.ytimg.com/vi/f8omFMpV-EE/sddefault.jpg"
+                            title="VR Avionics -FSM -Auto Fuel leveling" 
+                            description="Auto fuel leveling in a Lancair IVPT Jet-prop. Due to a typical high fuel flow burn rate of 33 US  G/h plus and coupled to the all wet wing make this solution very nice to provide a low pilot work load in this high performance aircraft.\n\ncheck out :\n\nhttp://vravionics.com/fsm.htm" 
+                            videoId="f8omFMpV-EE"
+                        />
 
                         <VideoCard
-                            thumbnail-src="https://static.garmincdn.com/gdc/market-pages/banners/in-the-air/2021/business-aviation/1600x455/business-Garmin-Autoland-1600x455.jpg"
-                            title="Video Title 2" description="Description of Video 2." />
+                            thumbnail-src="https://i.ytimg.com/vi/lcXCUQPT5aY/sddefault.jpg"
+                            title="Startup of N351BG" 
+                            description="this video shows the startup from outside and inside with John Cook at the controls"
+                            videoId="lcXCUQPT5aY"
+                             />
 
                         <VideoCard
-                            thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/34390-G5000-upgrade-phase-2/34390-hero-desktop.jpg"
-                            title="Video Title 3" description="Description of Video 3." />
+                            thumbnail-src="https://i.ytimg.com/vi/CqEfHXsRTbA/hqdefault.jpg"
+                            title="Compilation of ouside inside N351BG" 
+                            description="John Cook test flying Bill Gayle's Lancair Jet prop in November 2016"
+                            videoId="CqEfHXsRTbA"
+                             />
                     </div>
                 </div>
             </div>
         </article>
         <article class="h-auto py-10 bg-gradient-to-b from-slate-100 to-slate-900/10 text-slate-800">
             <div class="flex items-center justify-center flex-col ">
-                <h1 class="text-4xl font-bold text-center font-display tracking-wider">
+                <h1 class="text-4xl font-bold text-center font-display tracking-wider selection:bg-maple-red-100 subpixel-antialiased">
                     Some of our work
                 </h1>
 
@@ -73,36 +82,37 @@
                     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-1">
 
                         <GalleryImage class="col-span-2"
-                            thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/44290-Aviation%20Government%20and%20Defense%20Landing%20Page/44290-hero-desktop.jpg"
+                            thumbnail-src="/img/gallery/A-B-1.jpg"
                             title="Lorem ipsum dolor sit." />
 
                         <GalleryImage
-                            thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/34390-G5000-upgrade-phase-2/34390-hero-desktop.jpg"
+                            thumbnail-src="/img/gallery/C-1.jpg"
                             title="Lorem ipsum dolor sit amet." />
 
                         <GalleryImage class="row-span-2"
-                            thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/44290-Aviation%20Government%20and%20Defense%20Landing%20Page/44290-hero-desktop.jpg"
+                            thumbnail-src="/img/gallery/D-1-2.jpg"
                             title="Lorem, ipsum dolor." />
 
                         <GalleryImage class="row-span-2"
-                            thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/34390-G5000-upgrade-phase-2/34390-hero-desktop.jpg"
+                            thumbnail-src="/img/gallery/A-2-3.jpg"
                             title="Lorem, ipsum dolor." />
 
 
                         <GalleryImage
-                            thumbnail-src="https://static.garmincdn.com/gdc/market-pages/banners/in-the-air/2021/business-aviation/1600x455/business-Garmin-Autoland-1600x455.jpg"
+                            thumbnail-src="/img/gallery/B-2.jpg"
                             title="Lorem ipsum dolor sit." />
 
                         <GalleryImage
-                            thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/34390-G5000-upgrade-phase-2/34390-hero-desktop.jpg"
+                            thumbnail-src="/img/gallery/C-2.jpg"
                             title="Lorem ipsum dolor sit amet." />
+
                         <GalleryImage class="col-span-2"
-                            thumbnail-src="https://static.garmincdn.com/gdc/market-pages/banners/in-the-air/2021/business-aviation/1600x455/business-Garmin-Autoland-1600x455.jpg"
+                            thumbnail-src="/img/gallery/B-C-3.JPG"
                             title="Lorem, ipsum dolor." />
 
 
                         <GalleryImage
-                            thumbnail-src="https://static.garmincdn.com/gdc/Landing-Pages/Aviation/44290-Aviation%20Government%20and%20Defense%20Landing%20Page/44290-hero-desktop.jpg"
+                            thumbnail-src="/img/gallery/D-3.jpg"
                             title="Lorem ipsum dolor sit." />
 
                     </div>
