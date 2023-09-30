@@ -19,7 +19,7 @@ module.exports = {
             transitionProperty: {
                 'height': 'height'
             },
-            'display': ['Oswald', ...],
+            'display': ['Oswald']
         },
        
     },
