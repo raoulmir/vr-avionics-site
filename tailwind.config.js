@@ -19,8 +19,11 @@ module.exports = {
             transitionProperty: {
                 'height': 'height'
             },
-            'display': ['Oswald']
+            
         },
+        fontFamily: {
+            'display': ['Oswald']
+        }
        
     },
     
