@@ -47,7 +47,7 @@
                             class="bg-clip-text text-transparent bg-gradient-to-l from-maple-red-500 via-rose-600 to-maple-red-800">meant
                             to fly.</span>
                     </h1>
-                    <p>Update your panel to the latest tech <br>
+                    <p>Update your instrument panel to the latest tech <br>
                         While you keep flying — no more years of down-time.</p>
                     <div class="button-container flex justify-center md:justify-end w-full gap-4">
                         <PrimaryButton @click="isOpen = true">REACH OUT</PrimaryButton>
@@ -64,7 +64,7 @@
                     Who are we
                 </h1>
                 <p class="py-5 max-w-3xl text-center">Your premier destination for cutting-edge avionics solutions. We
-                    specialize in the design and installation of dashboards and harnesses
+                    specialize in the design and installation of instrument panels and harnesses
                     using advanced CAD software. What sets us apart is our unique approach—we build each unit separately in
                     our state-of-the-art facility to ensure precision and quality.
                     This allows for a seamless and quick installation process, minimizing downtime for your aircraft (~1
