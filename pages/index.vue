@@ -132,7 +132,7 @@
 
                         <GalleryImage thumbnail-src="/img/gallery/C-2.jpg" title="Maticulously tested" />
 
-                        <GalleryImage class="md:col-span-2" thumbnail-src="/img/gallery/B-C-3.JPG"
+                        <GalleryImage class="md:col-span-2" thumbnail-src="/img/gallery/B-C-3.jpg"
                             title="Modeled, planned and designed with CAD software ahead of time" />
 
 
