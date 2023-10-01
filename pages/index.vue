@@ -41,7 +41,7 @@
             <div
                 class="bg-gradient-to-tr from-neutral-950 via-transparent to-neutral-950 to-90% absolute inset-0 flex items-center md:pl-20 ">
                 <div class="hero-container flex flex-col gap-5 m-5 mb-10 text-center md:text-left">
-                    <h1 class="font-display text-2xl md:text-4xl font-bold tracking-wider subpixel-antialiased">
+                    <h1 class="text-balance font-display text-3xl md:text-4xl font-bold tracking-wider subpixel-antialiased">
                         VR Canada Avionics - <br>
                         Your plane was <span
                             class="bg-clip-text text-transparent bg-gradient-to-l from-maple-red-500 via-rose-600 to-maple-red-800">meant
@@ -66,7 +66,7 @@
                 <p class="py-5 max-w-3xl text-center">Your premier destination for cutting-edge avionics solutions. We
                     specialize in the design and installation of instrument panels and harnesses
                     using advanced CAD software. What sets us apart is our unique approach—we build each unit separately in
-                    our state-of-the-art facility to ensure precision and quality.
+                    our state-of-the-art facility to ensure precision and quality, with 30+ years of experience to back it.
                     This allows for a seamless and quick installation process, minimizing downtime for your aircraft (~1
                     Month). Experience innovation and efficiency with VR Canada Avionics — where avionics
                     meets excellence.</p>
@@ -110,12 +110,12 @@
         <article class="h-auto py-10 bg-gradient-to-b from-slate-100 to-neutral-100 text-slate-800">
             <div class="flex items-center justify-center flex-col ">
                 <h1
-                    class="text-4xl font-bold text-center font-display tracking-wider selection:bg-maple-red-100 subpixel-antialiased">
+                    class="text-4xl font-bold text-center font-display selection:bg-maple-red-100 subpixel-antialiased">
                     Some of our work
                 </h1>
 
                 <div class="container mx-auto py-8">
-                    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-1 m-5">
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 m-5">
 
                         <GalleryImage class="col-span-2" thumbnail-src="/img/gallery/A-B-1.jpg"
                             title="Installed and tested in your plane within avg. of 1 month" />
@@ -153,8 +153,7 @@ definePageMeta({
 </script>
 <style>
 /* Additional CSS for the hero banner */
-
-.backdrop-filter {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(5px);
-}</style>
+.text-balance {
+    text-wrap: balance;
+}
+</style>
