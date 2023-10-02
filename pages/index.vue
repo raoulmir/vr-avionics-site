@@ -118,7 +118,7 @@
                     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 m-5">
 
                         <GalleryImage class="col-span-2" thumbnail-src="/img/gallery/A-B-1.jpg"
-                            title="Installed and tested in your plane within avg. of 1 month" />
+                            title="Installed and tested in your plane within ~21 working days" />
 
                         <GalleryImage thumbnail-src="/img/gallery/C-1.jpg" />
 
@@ -130,7 +130,7 @@
 
                         <GalleryImage thumbnail-src="/img/gallery/B-2.jpg" title="State of the art wire harnesses" />
 
-                        <GalleryImage thumbnail-src="/img/gallery/C-2.jpg" title="Maticulously tested" />
+                        <GalleryImage thumbnail-src="/img/gallery/C-2.jpg" title="Maticulously tested and measured for digitization in CAD software" />
 
                         <GalleryImage class="md:col-span-2" thumbnail-src="/img/gallery/B-C-3.jpg"
                             title="Modeled, planned and designed with CAD software ahead of time" />
