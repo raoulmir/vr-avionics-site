@@ -68,6 +68,6 @@
 
         </div>
 
-        <p>Copyright © 2023 VR Canada Avionics Inc.</p>
+        <p>Copyright © 2025 VR Canada Avionics Inc.</p>
     </AppFooter>
 </template>
